@@ -2,7 +2,7 @@ tasks:
   - name: install yasm
     before: sudo apt install yasm libsdl1.2-dev libsdl-image1.2-dev -y
   - name: make
-    init: make
+    init: make -j32
   - name: test
     command: |
       wget https://source.unsplash.com/random/1920x1080 -O ./test.jpg

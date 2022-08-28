@@ -1,0 +1,11 @@
+*.o
+*.a
+*.d
+*~
+bpgdec
+bpgdec.exe
+bpgenc
+bpgenc.exe
+bpgview
+bpgview.exe
+x265.out

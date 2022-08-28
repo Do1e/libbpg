@@ -256,7 +256,7 @@ static void bpg_show_info(const char *filename, int show_extensions)
 
 static void help(void)
 {
-    printf("BPG Image Decoder version " CONFIG_BPG_VERSION "\n"
+    printf("BPG Image Decoder\n"
            "usage: bpgdec [options] infile\n"
            "Options:\n"
            "-o outfile.[ppm|png]   set the output filename (default = out.png)\n"

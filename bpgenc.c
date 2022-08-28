@@ -2651,7 +2651,7 @@ void help(int is_full)
         strcat(hevc_encoders, hevc_encoder_name[i]);
     }
         
-    printf("BPG Image Encoder version " CONFIG_BPG_VERSION "\n"
+    printf("BPG Image Encoder\n"
            "usage: bpgenc [options] infile.[jpg|png]\n"
            "\n"
            "Main options:\n"
